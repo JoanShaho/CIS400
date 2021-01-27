@@ -1,0 +1,19 @@
+.loginButton {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: #f30404;
+    border: 0px;
+    box-shadow: inset 0 1px 0 #e95858; 
+    font-weight:"bold";
+}
+
+.signUpButton {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: #043cf3;
+    border: 0px;
+    box-shadow: inset 0 1px 0 #413efa; 
+    font-weight:"bold";
+}

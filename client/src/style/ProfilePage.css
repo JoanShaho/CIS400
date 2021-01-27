@@ -1,0 +1,59 @@
+.people-container .people-header, .results-container .person {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .person .login, .people-header .header-lg {
+    flex: 1 0 50%;
+  }
+  
+  .people-header .header, .person .name, .person .birthyear {
+    flex: 1 0 25%;
+  }
+  
+  .less-headspace {
+    padding-top: 1rem !important;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .inputBox {
+    width: 100%;
+    height: 40px;
+  }
+
+  .editButton {
+    width: 80%;
+    height: 40px;
+    color: white; 
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB; 
+    font-weight:"bold";
+  }
+
+  .recButton {
+    width: 80%;
+    height: 40px;
+    color: white; 
+    background: #280555;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #052252; 
+    font-weight:"bold";
+  }
+
+  .LogoutButton {
+    width: 80%;
+    height: 40px;
+    color: rgb(255, 255, 255); 
+    background: #f00909;
+    border: 1px #ed6c30 solid;
+    box-shadow: inset 0 1px 0 #b84030; 
+    font-weight:"bold";
+  }
+  
+  .findFriend-headspace {
+    padding-top: 2rem !important;
+  }
